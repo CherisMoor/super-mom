@@ -1,0 +1,22 @@
+h1 {
+	text-align: right;
+	font-family:Courier New;
+	text-shadow: 5px 5px 5px grey;
+}
+.circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  colour: red;
+}
+.circle {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(45deg, red, red 100%), 
+    linear-gradient(135deg, blue, blue), 
+    linear-gradient(225deg, yellow, yellow) , 
+    linear-gradient(225deg, green, green);
+    background-size: 50% 50%;
+    background-position: 0% 0%, 0% 100%, 100% 0%, 100% 100%;
+    background-repeat: no-repeat;
+}
